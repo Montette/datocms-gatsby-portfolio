@@ -10,6 +10,7 @@ const About = ({ data: { about } }) => (
       <HelmetDatoCms seo={about.seoMetaTags} />
       <div className="sheet__inner">
         <h1 className="sheet__title">{about.title}</h1>
+        <p>test subtitle before subtitle</p>
         <p className="sheet__lead">{about.subtitle}</p>
         <div className="sheet__gallery">
           <Img fluid={about.photo.fluid} />
